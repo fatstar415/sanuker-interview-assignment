@@ -1,0 +1,54 @@
+.tree-container {
+  list-style: none;
+  padding: 0;
+}
+
+.tree-node {
+  padding: 1.75rem 3rem;
+}
+
+.tree-toggler.active {
+  transform: rotate(45deg);
+}
+
+.card {
+  width: '28rem';
+}
+
+.picture {
+  width: '64px';
+  height: '64px';
+  position: 'relative';
+  top: '-36px';
+  margin-bottom: '-24px';
+  padding: '5px';
+  background-color: '#FFFFFF';
+}
+
+.company, .address {
+  color: '#979797'
+}
+
+.phone-container, .email-container {
+  width: '40px';
+  height: '40px'; 
+  margin: '5px';
+  padding: '1px'; 
+  border-color: '#c9d5d8';
+}
+
+.phone-icon, .email-icon {
+  width: '25px';
+  height: '25px';
+  margin: '5px';
+  border-color: '#c9d5d8';
+}
+
+.lower {
+  border-top: '1px solid rgba(0, 0, 0, 0.125)';
+  background-color: '#f7fbfc';
+}
+
+.about-title {
+  color: '#979797';
+}
